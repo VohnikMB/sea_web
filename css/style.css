@@ -1,9 +1,11 @@
 .header{
   height: 6%;
   width: 100%;
+
   background: rgba(89, 175, 140, 0.2);
   backdrop-filter: blur(5px);
   background-image: url("image/head.png");
+
   border: solid 0px black;
   float: 100%;
   position: fixed;
@@ -12,9 +14,11 @@
  	background-size: 100% 100%;
   margin: 0px 0px 0px;
   padding: 0px 0px 0px;
-   top: 0;
-   transform: translate(0);
+  top: 0;
+  transform: translate(0);
+
 }
+
 body{
   height: 100%;
   width: 100%;
@@ -23,6 +27,7 @@ body{
   padding: 0px ;
    top: 0;
 }
+
 .header p{
 font-family: 'Comfortaa';
 font-style: normal;

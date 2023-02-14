@@ -1,5 +1,16 @@
+.background_image1{
+  background-image: url("image/background_1.png");
+  position: static;
+  width: auto;
+  height: 1080px;
+  left: 0px;
+  background-repeat: no-repeat;
+  display: block;
+  top: 0px;
+}
+
 .header{
-  height: 6%;
+  height: 8%;
   width: 100%;
 
   background: rgba(89, 175, 140, 0.2);
@@ -16,7 +27,6 @@
   padding: 0px 0px 0px;
   top: 0;
   transform: translate(0);
-
 }
 
 body{
@@ -25,30 +35,29 @@ body{
   background-color: #0F0D18;
   margin: 0px ;
   padding: 0px ;
-   top: 0;
+
 }
+
 .header table{
   height: 100%;
   width: 100%;
-
 }
+
 .header img{
-width: 41px;
-height: 41px;
-
-
+  width: 45px;
+  height: auto;
 }
 
 .header p{
-font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 28px;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
 
-color: #ECD6BE;
-border: 0px solid #2E5945;
-margin: 0px ;
-padding: 0px ;
-top: 0;
+  color: #ECD6BE;
+  border: 0px solid #2E5945;
+  margin: 0px ;
+  padding: 0px ;
+  top: 0;
 }

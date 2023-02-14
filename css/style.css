@@ -11,7 +11,7 @@
   position: fixed;
   display: block;
   display: inline-block;
- 	background-size: 100% 100%;
+  background-size: 100% 100%;
   margin: 0px 0px 0px;
   padding: 0px 0px 0px;
   top: 0;
@@ -27,6 +27,17 @@ body{
   padding: 0px ;
    top: 0;
 }
+.header table{
+  height: 100%;
+  width: 100%;
+
+}
+.header img{
+width: 41px;
+height: 41px;
+
+
+}
 
 .header p{
 font-family: 'Comfortaa';
@@ -36,11 +47,8 @@ font-size: 25px;
 line-height: 28px;
 
 color: #ECD6BE;
-
 border: 0px solid #2E5945;
-
 margin: 0px ;
 padding: 0px ;
 top: 0;
-
 }

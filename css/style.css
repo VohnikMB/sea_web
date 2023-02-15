@@ -6,6 +6,7 @@
   left: 0px;
   background-repeat: no-repeat;
   display: block;
+  margin: 0;
   top: 0px;
 }
 
@@ -34,8 +35,8 @@ body{
   height: 100%;
   width: 100%;
   background-color: #0F0D18;
-  margin: 0px ;
   padding: 0px ;
+  margin: 0;
 
 }
 
@@ -76,5 +77,55 @@ body{
   line-height: 88.5%;
   text-align: center;
   color: #F9F9F9;
+}
 
+.textFont1{
+  padding-top: 5%;
+  padding-right: 4%;
+  padding-bottom: 0;
+  float: right;
+  clear:both;
+  width: 471px;
+  text-align: center;
+  font-family: 'Current';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFDFD;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.textFont2{
+  margin-bottom: 0;
+  margin: 0;
+  padding-top: 0%;
+  padding-right: 4%;
+  float: right;
+  text-align: center;
+  width: 471px;
+  clear:both;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFDFD;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    color: #ECD6BE;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textFont2 img{
+  padding-top: 9%;
 }

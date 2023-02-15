@@ -30,6 +30,7 @@
 }
 
 body{
+  overflow: auto;
   height: 100%;
   width: 100%;
   background-color: #0F0D18;
@@ -60,4 +61,20 @@ body{
   margin: 0px ;
   padding: 0px ;
   top: 0;
+}
+
+.sotUaText{
+  width: 556px;
+  height: 162px;
+  padding-top: 10%;
+  padding-right: 3%;
+  float: right;
+  font-family: 'brush-tipTexe TRIAL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 88.5%;
+  text-align: center;
+  color: #F9F9F9;
+
 }

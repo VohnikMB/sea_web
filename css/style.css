@@ -10,6 +10,26 @@
   top: 0px;
 }
 
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header{
   height: 8%;
   width: 100%;
@@ -67,8 +87,8 @@ body{
 .sotUaText{
   width: 556px;
   height: 162px;
-  padding-top: 10%;
-  padding-right: 3%;
+  padding-top: 12%;
+  padding-right: 4%;
   float: right;
   font-family: 'brush-tipTexe TRIAL';
   font-style: normal;
@@ -117,13 +137,19 @@ body{
 .container {
     position: relative;
     text-align: center;
+    text-decoration: none;
 }
 .centered {
     position: absolute;
+
     color: #ECD6BE;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+a.centered {
+text-decoration: none;
+
 }
 
 .textFont2 img{

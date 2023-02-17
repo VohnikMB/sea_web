@@ -4,10 +4,13 @@
   width: auto;
   height: 1080px;
   left: 0px;
+  float: 100%;
   background-repeat: no-repeat;
   display: block;
   margin: 0;
   top: 0px;
+
+
 }
 
 a:link {
@@ -56,6 +59,7 @@ body{
   width: 100%;
   background-color: #0F0D18;
   padding: 0px ;
+  clear:both;
   margin: 0;
 
 }
@@ -118,9 +122,6 @@ body{
 }
 
 .textFont2{
-  margin-bottom: 0;
-  margin: 0;
-  padding-top: 0%;
   padding-right: 4%;
   float: right;
   text-align: center;
@@ -141,17 +142,18 @@ body{
 }
 .centered {
     position: absolute;
-
     color: #ECD6BE;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-a.centered {
-text-decoration: none;
-
-}
 
 .textFont2 img{
   padding-top: 9%;
+}
+.background_image2{
+  height: 100%;
+  width: 100%;
+  clear:both;
+  float: left;
 }

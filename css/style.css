@@ -6,10 +6,11 @@
   left: 0px;
   float: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   display: block;
   margin: 0;
   top: 0px;
-
+clear:both;
 
 }
 
@@ -139,6 +140,7 @@ body{
     position: relative;
     text-align: center;
     text-decoration: none;
+    clear:both;
 }
 .centered {
     position: absolute;
@@ -146,14 +148,38 @@ body{
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+    clear:both;
 }
 
 .textFont2 img{
   padding-top: 9%;
 }
+
 .background_image2{
+  padding-top: 10%;
+  padding-bottom: 10%;
+
   height: 100%;
   width: 100%;
+  position: static;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFDFD;
+  background-size: cover;
+  left: 0px;
+  float: right;
+  background-color: #0F0D18;
   clear:both;
-  float: left;
+  text-align: left;
+}
+.background_image2 img{
+  height:  800px;
+  width: 1 500px;
+
+}
+.background_image2 p{
+  padding-left: 5%;
 }

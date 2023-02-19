@@ -14,26 +14,6 @@ clear:both;
 
 }
 
-a:link {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
 .header{
   height: 8%;
   width: 100%;
@@ -54,16 +34,6 @@ a:active {
   transform: translate(0);
 }
 
-body{
-  overflow: auto;
-  height: 100%;
-  width: 100%;
-  background-color: #0F0D18;
-  padding: 0px ;
-  clear:both;
-  margin: 0;
-
-}
 
 .header table{
   height: 100%;

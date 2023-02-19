@@ -1,0 +1,31 @@
+
+body{
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  background-color: #0F0D18;
+  padding: 0px ;
+  clear:both;
+  margin: 0;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}

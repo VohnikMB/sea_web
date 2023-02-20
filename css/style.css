@@ -54,7 +54,7 @@
   width: 556px;
   height: 162px;
   padding-top: 12%;
-  padding-right: 4%;
+  padding-right: 2%;
   float: right;
   font-family: 'brush-tipTexe TRIAL';
   font-style: normal;
@@ -85,7 +85,7 @@
 
 .textFont2{
   padding-right: 4%;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
   float: right;
   text-align: center;
   width: 471px;
@@ -100,18 +100,19 @@
 }
 
 .container{
-  padding-right: 15%;
+  padding-right: 13.5%;
   float: right;
   text-align: center;
-  text-decoration: none;
+
   clear:both;
+
   background-image: url("image/1.svg");
   background-repeat: no-repeat;
   width: 153px;
   height: 49px;
-  left: 1054px;
-  top: 557px;
-  position:static;
+  /* left: 1054px;
+  top: 557px; */
+  position: inherit;
   font-family: 'Current';
   font-style: normal;
   font-weight: 900;
@@ -119,6 +120,14 @@
   line-height: 24px;
   text-transform: uppercase;
   color: #ECD6BE;
+
+  margin: 0;
+  margin-bottom: 0;
+
+}
+
+.container p{
+  margin-top: 17px;
 }
 
 

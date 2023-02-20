@@ -85,6 +85,7 @@
 
 .textFont2{
   padding-right: 4%;
+  padding-bottom: 4%;
   float: right;
   text-align: center;
   width: 471px;
@@ -95,23 +96,31 @@
   font-size: 25px;
   line-height: 30px;
   color: #FFFDFD;
+  clear:both;
 }
 
 .container{
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    clear:both;
+  padding-right: 15%;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  clear:both;
+  background-image: url("image/1.svg");
+  background-repeat: no-repeat;
+  width: 153px;
+  height: 49px;
+  left: 1054px;
+  top: 557px;
+  position:static;
+  font-family: 'Current';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ECD6BE;
 }
 
-.centered{
-    position: absolute;
-    color: #ECD6BE;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    clear:both;
-}
 
 .textFont2 img{
   padding-top: 9%;

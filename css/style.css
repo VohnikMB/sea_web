@@ -3,15 +3,11 @@
   position: static;
   width: auto;
   height: 1080px;
-  left: 0px;
-  float: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   margin: 0;
-  top: 0px;
-clear:both;
-
+  clear:both;
 }
 
 .header{
@@ -21,11 +17,8 @@ clear:both;
   background: rgba(89, 175, 140, 0.2);
   backdrop-filter: blur(5px);
   background-image: url("image/head.png");
-
   border: solid 0px black;
-  float: 100%;
   position: fixed;
-  display: block;
   display: inline-block;
   background-size: 100% 100%;
   margin: 0px 0px 0px;
@@ -33,7 +26,6 @@ clear:both;
   top: 0;
   transform: translate(0);
 }
-
 
 .header table{
   height: 100%;
@@ -51,7 +43,6 @@ clear:both;
   font-weight: 400;
   font-size: 25px;
   line-height: 28px;
-
   color: #ECD6BE;
   border: 0px solid #2E5945;
   margin: 0px ;
@@ -106,13 +97,14 @@ clear:both;
   color: #FFFDFD;
 }
 
-.container {
+.container{
     position: relative;
     text-align: center;
     text-decoration: none;
     clear:both;
 }
-.centered {
+
+.centered{
     position: absolute;
     color: #ECD6BE;
     top: 70%;
@@ -125,31 +117,44 @@ clear:both;
   padding-top: 9%;
 }
 
-.background_image2{
+
+.leftDiv{
+  height: 100%;
+  width: 40%;
   padding-top: 10%;
   padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+}
 
-  height: 100%;
-  width: 100%;
-  position: static;
+.leftDiv p{
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 900;
   font-size: 25px;
   line-height: 30px;
+  color: #ECD6BE;
+  padding-top: 10%;
+  padding-left: 5%;
+  background-color: #0F0D18;
+  text-align: justify;
+}
+
+.rightDiv{
+  height: 100%;
+  width: 40%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  float: right;
   color: #FFFDFD;
   background-size: cover;
-  left: 0px;
-  float: right;
   background-color: #0F0D18;
-  clear:both;
-  text-align: left;
 }
-.background_image2 img{
-  height:  800px;
-  width: 1 500px;
 
-}
-.background_image2 p{
-  padding-left: 5%;
+.rightDiv img{
+  height: auto ;
+  width: 100%;
 }

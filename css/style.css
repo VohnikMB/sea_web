@@ -188,3 +188,18 @@ img.F{
   width: 95%;
   height: auto;
 }
+.slider{
+  width: 436px;
+  height: 250px;
+
+margin: 30px auto;
+}
+
+.slider-line{
+  height: 250px;
+  width: 1024px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}

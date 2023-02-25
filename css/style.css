@@ -145,7 +145,26 @@
   float: left;
 }
 
+.leftDiv img{
+  height: auto ;
+  width: 125%;
+}
+
 .leftDiv p{
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ECD6BE;
+  padding-top: 10%;
+  padding-left: 5%;
+  background-color: #0F0D18;
+  text-align: justify;
+}
+
+.rightDiv p{
+
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 900;
@@ -202,4 +221,40 @@ margin: 30px auto;
   position: relative;
   left: 0;
   transition: all ease 1s;
+}
+
+.footer{
+  margin-top: 25%;
+  width: 180%;
+  height: 80px;
+  left: 1440px;
+  top: 5990px;
+  background: rgba(89, 175, 140, 0.2);
+  backdrop-filter: blur(5px);
+  background-image: url("image/footer.svg");
+  background-size: auto;
+  position: static;
+  display: inline-block;
+}
+
+.footer table{
+  height: 100%;
+  width: 100%;
+}
+
+.footer p{
+  margin-left: 2%;
+  margin-top: 1%;
+  float: left;
+  font-family: 'Current';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  color: #ECD6BE;
+}
+
+.footer img{
+  width: 50px;
+  height: auto;
 }

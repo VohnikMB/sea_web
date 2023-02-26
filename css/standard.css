@@ -4,7 +4,8 @@ body{
   height: 100%;
   width: 100%;
   background-color: #0F0D18;
-  padding: 0px ;
+  display: inherit;
+  padding: 0;
   clear:both;
   margin: 0;
   overflow-x:hidden;

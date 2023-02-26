@@ -203,15 +203,31 @@ table.F{
   margin-right: 7%;
 }
 
+img.Full{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img.Full2{
+  margin-top: 5%;
+  width: 90%;
+  height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 img.F{
   width: 95%;
   height: auto;
 }
+
 .slider{
   width: 436px;
   height: 250px;
-
-margin: 30px auto;
+  margin: 30px auto;
 }
 
 .slider-line{
@@ -244,7 +260,7 @@ margin: 30px auto;
 
 .footer p{
   margin-left: 2%;
-  margin-top: 1%;
+  margin-top: 35px;
   float: left;
   font-family: 'Current';
   font-style: normal;

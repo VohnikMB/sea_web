@@ -12,3 +12,6 @@ offset+=1;
 }
 
 setInterval(go, 5);
+
+console.log( 'Проект розробив користувач ВоГниК' );
+console.log( 'https://github.com/VohnikMB' );

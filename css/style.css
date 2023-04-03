@@ -220,14 +220,15 @@ img.Full2{
     margin-right: auto;
 }
 
+
 img.F{
   width: 95%;
   height: auto;
 }
 
 .slider{
-  width: 436px;
-  height: 250px;
+  width: 336px;
+  height: 5px;
   margin: 30px auto;
 }
 
@@ -241,7 +242,7 @@ img.F{
 }
 
 .footer{
-  margin-top: 25%;
+  margin-top: 20%;
   width: 180%;
   height: 80px;
   left: 1440px;
@@ -260,9 +261,9 @@ img.F{
 }
 
 .footer p{
-  margin-left: 2%;
+  margin-left: 23%;
   margin-top: 35px;
-  float: left;
+  float:left;
   font-family: 'Current';
   font-style: normal;
   font-weight: 400;

@@ -4,7 +4,7 @@ const sliderLine = document.querySelector('.slider-line');
 
 function go(){
 
-  if(offset>(436*6)){
+  if(offset>(436*10)){
     offset = -540;
   }
   sliderLine.style.left = -offset+'px'
